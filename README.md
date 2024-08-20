@@ -40,11 +40,11 @@ npm install
 
 Make sure that you have configured the correct database name in the .env file (DATABASE_URL) and run the following command. This will create a new database and seed it with some dummy data. 
 ```sh
-npx run init_db
+npm run init_db
 ```
 Alternatively, you can run this command to skip the seeding step.
 ```sh
-npx run init_db_no_seed
+npm run init_db_no_seed
 ```
 
 1. Run the development server:
