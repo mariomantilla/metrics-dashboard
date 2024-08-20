@@ -1,0 +1,1 @@
+export const MAX_METRICS_PER_QUERY = 1000;
